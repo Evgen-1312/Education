@@ -25,11 +25,12 @@ a {
 .inform {
 	display: flex;
 	justify-content: space-between;
+	padding: 39px 0;
 }
 
 h1 {
 	color: #070707;
-	padding: 39px 0;
+
 }
 
 .inform-centr {
