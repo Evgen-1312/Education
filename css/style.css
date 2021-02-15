@@ -1,9 +1,13 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
-	/* margin: 0; */
+	margin: 0;
+	color: #828282;
 }
 
+* {
+	border: 1px solid red;
+}
 
 .wrapper {
 	max-width: 943px;
@@ -12,17 +16,15 @@ body {
 
 nav {
 	display: flex;
-	flex-flow: column wrap;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	border-bottom: 1px solid #828282;
-	/* padding: 33px 0; */
+	padding: 33px 0;
 }
 
 nav a {
 	text-decoration: none;
 	font-size: 18px;
 	color: #828282;
-	width: 100px;
 }
 
 .inform {
@@ -31,21 +33,45 @@ nav a {
 	/* padding: 39px 0; */
 }
 
-.logo {
-	margin: 0 195px;
+.rus-eng-btn {
+	/* writing-mode: tb-rl; */
+	/* transform: rotate(180deg) */
+	/* transform: rotate(-90deg); */
+	/* transform: rotate(0.5turn); */
+	transform: -webkit-transform;
+	transform: rotate(270deg);
 }
 
+.btn-rus,
+.btn-eng {
+	text-decoration: none;
+}
+
+.btn-rus {
+	border-right: 2px solid #000000;
+	font-size: 16px;
+}
+
+.btn-eng {
+	padding-left: 3px;
+	font-size: 16px;
+}
+
+
+/* .logo {
+	margin: 50px 0;
+} */
+
 /* div p {
-	/* display: inline-block;
-	justify-content: space-between;
+	display: inline;
 } */
 
-/* div .wrapper {
-	display: ;
-	justify-content: space-between;
-} */
+/* div .wrapper { */
+/* display: flex; */
+/* justify-content: space-between; */
+/* } */
 
-/* .inform-centr {
+/* .inform-center {
 	align-self: center;
 } */
 
