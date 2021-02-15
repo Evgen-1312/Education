@@ -1,8 +1,12 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
-	margin: 0;
+	/* margin: 0; */
 }
+
+/* * {
+	border: 1px solid red;
+} */
 
 .wrapper {
 	max-width: 943px;
@@ -11,34 +15,44 @@ body {
 
 nav {
 	display: flex;
-	justify-content: space-between;
+	flex-flow: column wrap;
+	justify-content: space-evenly;
 	border-bottom: 1px solid #828282;
-	padding: 33px 0;
+	/* padding: 33px 0; */
 }
 
-a {
+nav a {
 	text-decoration: none;
 	font-size: 18px;
 	color: #828282;
+	width: 100px;
 }
 
 .inform {
 	display: flex;
 	justify-content: space-between;
-	padding: 39px 0;
+	/* padding: 39px 0; */
 }
 
-h1 {
-	color: #070707;
-
+.logo {
+	margin: 0 195px;
 }
 
-.inform-centr {
+/* div p {
+	/* display: inline-block;
+	justify-content: space-between;
+} */
+
+/* div .wrapper {
+	display: ;
+	justify-content: space-between;
+} */
+
+/* .inform-centr {
 	align-self: center;
-}
+} */
 
-.inform-right {
+/* .inform-right {
 	align-self: center;
-	transform: rotate(-90deg);
 	text-transform: uppercase;
-}
+} */
