@@ -1,16 +1,16 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
-	margin: 0;
+	/* margin: 0; */
 	color: #828282;
 }
 
-/* * {
-	border: 1px solid red;
-} */
+* {
+	border: 1px solid black;
+}
 
 .wrapper {
-	max-width: 943px;
+	width: 945px;
 	margin: 0 auto;
 }
 
@@ -22,66 +22,69 @@ nav {
 }
 
 nav a {
-	text-decoration: none;
 	font-size: 18px;
 	color: #828282;
 }
 
-.inform {
+a {
+	text-decoration: none;
+}
+
+.inform_flex {
+	/* display: inline-block; */
 	display: flex;
 	justify-content: space-between;
 	padding: 34px 0;
 }
 
-.rus-eng-btn {
+/* .inform_center {
+	padding: 0;
+} */
+
+.inform_flex-buttoms {
 	/* writing-mode: tb-rl; */
 	/* transform: rotate(180deg) */
 	/* transform: rotate(-90deg); */
 	/* transform: rotate(0.5turn); */
-	transform: -webkit-transform;
-	transform: rotate(270deg);
+	/* transform: -webkit-transform; */
+	/* transform: rotate(270deg); */
+	/* transform: translateX(18px) rotate(270deg);
+	align-self: center; */
 }
 
-.inform_buttoms-rus,
-.inform_buttoms-eng {
-	text-decoration: none;
+.inform_flex-buttoms_eng {
+	border-left: 2px solid #828282;
 }
 
-.btn-rus,
-.btn-eng {
-	text-decoration: none;
-}
-
-.btn-rus {
-	border-right: 2px solid #000000;
-	font-size: 16px;
-}
-
-.btn-eng {
-	padding-left: 3px;
-	font-size: 16px;
-}
-
-/* .inform-center {
+.flex_buttons_rusEng {
+	transform: translateX(18px) rotate(270deg);
 	align-self: center;
+}
+
+/* img {
+	width: 100%;
+	height: auto;
 } */
 
-/* .logo {
-	margin: 50px 0;
-} */
+.flex_buttons_rusEng {}
 
-/* div p {
-	display: inline;
-} */
+.inform_flex_center {
+	width: 100px;
+	padding: 0;
+}
 
-/* div .wrapper { */
-/* display: flex; */
-/* justify-content: space-between; */
-/* } */
+/* тренька */
+.wrap_wrapper {
+	display: flex;
+	justify-content: space-around;
+}
 
+.wrap_red {
+	background-color: red;
+	color: white;
+}
 
-
-/* .inform-right {
-	align-self: center;
-	text-transform: uppercase;
-} */
+.wrap_black {
+	background-color: black;
+	color: white;
+}
