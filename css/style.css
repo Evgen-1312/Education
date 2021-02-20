@@ -1,72 +1,49 @@
 body {
-	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
-	margin: 0;
-	color: #828282;
+	/* font-family: 'Roboto', sans-serif;
+	font-size: 14px; */
+	/* margin: 0; */
+	/* color: #828282; */
 }
 
-.wrapper {
-	width: 945px;
+* {
+	border: 1px solid black;
+}
+
+.wrap {
+	max-width: 945px;
 	margin: 0 auto;
 }
 
 nav {
 	display: flex;
 	justify-content: space-between;
-	border-bottom: 1px solid #828282;
 	padding: 33px 0;
 }
 
-nav a {
-	font-size: 18px;
-	color: #828282;
+nav {
+	border-bottom: 1px solid #828282;
+}
+
+nav a,
+section a {
 	text-decoration: none;
 }
 
-.inform_flex {
+.info {
 	display: flex;
 	justify-content: space-between;
-	padding: 34px 0;
 }
 
-.inform_flex_minsk {
-	align-self: flex-end;
+p {
+	padding-bottom: 0px;
 }
 
-.inform_flex-buttoms_eng {
-	border-left: 2px solid #828282;
-}
-
-.flex_buttons_rusEng {
+.btn-a {
 	transform: translateX(18px) rotate(270deg);
 	align-self: center;
 }
 
-.wraps {
-	display: inline-block;
-}
-
-.button-1 {
-	text-align: center;
-}
-
-.log_ae {
-	vertical-align: middle;
-}
-
-.wrap_wrapper {
-	display: flex;
+h1, p {
+	display: inline;
 	justify-content: space-between;
-}
-
-.wrap_red {
-	background-color: red;
-}
-
-.wrap_aqua {
-	background-color: aqua;
-}
-
-.wrap_orange {
-	background-color: orange
 }
