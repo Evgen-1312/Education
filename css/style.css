@@ -1,71 +1,95 @@
-body {
-	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
-	margin: 0;
-	color: #828282;
-}
+ body {
+ 	font-family: Arial, sans-serif;
+ 	color: #000;
+ 	margin: 0;
+ }
 
-.wrapper {
-	width: 945px;
-	margin: 0 auto;
-}
+ .wrapper {
+ 	width: 945px;
+ 	margin: 0 auto;
+ }
 
-nav {
-	display: flex;
-	justify-content: space-between;
-	border-bottom: 1px solid #828282;
-	padding: 33px 0;
-}
+ nav {
+ 	display: flex;
+ 	justify-content: space-between;
+ 	padding: 33px 0;
+ 	border-bottom: 1px solid black;
+ }
 
-nav a {
-	font-size: 18px;
-	color: #828282;
-}
+ nav a {
+ 	text-decoration: none;
+ }
 
-a {
-	text-decoration: none;
-}
+ .info {
+ 	display: flex;
+ 	justify-content: space-between;
+ 	align-items: center;
+ 	padding: 20px 0;
+ }
 
-.inform_flex {
-	display: flex;
-	justify-content: space-between;
-	padding: 34px 0;
-}
+ .btn {
+ 	transform: translateX(18px) rotate(270deg);
+ 	align-self: center;
+ }
 
-.inform_flex-buttoms_eng {
-	border-left: 2px solid #828282;
-}
+ .btn a {
+ 	text-decoration: none;
+ 	text-transform: uppercase;
+ }
 
-.flex_buttons_rusEng {
-	transform: translateX(18px) rotate(270deg);
-	align-self: center;
-}
+ .picture {
+ 	padding-bottom: 50px;
+ }
 
-.wraps {
-	display: inline-block;
-}
+ .bg {
+ 	background: #F6F6F6;
+ }
 
-.button-1 {
-	text-align: center;
-}
+ .subtitle {
+ 	padding: 20px 0;
+ 	text-align: center;
+ }
 
-.log_ae {
-	vertical-align: middle;
-}
+ .generals {
+ 	display: flex;
+ 	justify-content: space-between;
+ 	text-align: center;
+ }
 
-.wrap_wrapper {
-	display: flex;
-	justify-content: space-between;
-}
+ .landing-page {
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+ }
 
-.wrap_red {
-	background-color: red;
-}
+ .landing-page a {
+ 	padding: 40px 0 80px;
+ }
 
-.wrap_aqua {
-	background-color: aqua;
-}
+ /* ====Contacts=== */
+ .btn_2 {
+ 	background: black;
+ 	color: #fff;
+ 	width: 180px;
+ 	padding: 12px 30px;
+ 	text-align: center;
+ 	text-decoration: none;
+ 	border-radius: 17px;
+ }
 
-.wrap_orange {
-	background-color: orange
-}
+ .btn2 {
+ 	padding: 30px 0;
+ }
+
+ .icon-social {
+ 	display: flex;
+ 	justify-content: center;
+ }
+
+ .icon-social img {
+ 	margin: 20px;
+ }
+
+ .social-text {
+ 	text-align: center;
+ }
