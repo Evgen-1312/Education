@@ -4,10 +4,6 @@
  	margin: 0;
  }
 
- /* * {
-	 border: 1px solid black;
- } */
-
  .wrapper {
  	width: 945px;
  	margin: 0 auto;
@@ -82,14 +78,18 @@
  }
 
  .btn2 {
- 	padding: 30px  0;
+ 	padding: 30px 0;
  }
 
-.icon-social {
-	display: flex;
-	justify-content: center;
-}
+ .icon-social {
+ 	display: flex;
+ 	justify-content: center;
+ }
 
-.social-text {
-	text-align: center;
-}
+ .icon-social img {
+ 	margin: 20px;
+ }
+
+ .social-text {
+ 	text-align: center;
+ }
