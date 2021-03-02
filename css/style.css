@@ -1,14 +1,12 @@
  body {
  	font-family: Arial, sans-serif;
- 	color: #000;
  	margin: 0;
  	padding: 0;
-	 background: white;
+ 	background: white;
  }
 
  * {
  	box-sizing: border-box;
-	 /* border: 1px dotted red; */
  }
 
  a,
@@ -17,6 +15,7 @@
  	color: #000;
  }
 
+ /* =Header= */
  .wrapper {
  	width: 948px;
  	margin: 0 auto;
@@ -33,6 +32,10 @@
  	text-decoration: none;
  }
 
+ /* =Header(end)= */
+
+
+ /* ==Info-name== */
  .info-name {
  	display: flex;
  	justify-content: space-between;
@@ -56,6 +59,10 @@
  	padding-bottom: 50px;
  }
 
+ /* ==Info-name(end)== */
+
+
+ /* ===Section_About=== */
  .bg-gray {
  	background: #F6F6F6;
  }
@@ -65,6 +72,10 @@
  	text-align: center;
  }
 
+ /* ===Section_About(end)=== */
+
+
+ /* ====Section_Skills==== */
  .programs {
  	display: flex;
  	justify-content: space-between;
@@ -72,6 +83,10 @@
  	padding: 0 0 50px;
  }
 
+ /* ====Section_Skills(end)==== */
+
+
+ /* =====Section_Portfolio===== */
  .landing-page {
  	display: flex;
  	flex-direction: column;
@@ -82,6 +97,10 @@
  	padding: 40px 0 80px;
  }
 
+ /* =====Section_Portfolio(end)===== */
+
+
+ /* ======Section__social_icons====== */
  .btn-black {
  	display: inline-block;
  	background: black;
@@ -103,7 +122,12 @@
  	margin: 45px;
  }
 
- /* ====Footer=== */
+ /* ======Section__social_icons(end)====== */
+
+
+ /* ====Footer_P=== */
  .social-text {
  	text-align: center;
  }
+
+ /* ====Footer_P(end)=== */
