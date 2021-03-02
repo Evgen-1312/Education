@@ -2,6 +2,17 @@
  	font-family: Arial, sans-serif;
  	color: #000;
  	margin: 0;
+ 	padding: 0;
+ }
+
+ * {
+ 	box-sizing: border-box;
+ }
+
+ a,
+ h1,
+ h2 {
+ 	color: #000;
  }
 
  .wrapper {
@@ -20,19 +31,21 @@
  	text-decoration: none;
  }
 
- .info {
+ .info-name {
  	display: flex;
  	justify-content: space-between;
  	align-items: center;
  	padding: 20px 0;
  }
 
- .btn {
+ .lang-switcher {
  	transform: translateX(18px) rotate(270deg);
  	align-self: center;
  }
 
- .btn a {
+ .lang-switcher__item {
+ 	border: 1px solid #767676;
+ 	background: #EFEFEF;
  	text-decoration: none;
  	text-transform: uppercase;
  }
@@ -41,7 +54,7 @@
  	padding-bottom: 50px;
  }
 
- .bg {
+ .bg-gray {
  	background: #F6F6F6;
  }
 
@@ -50,10 +63,11 @@
  	text-align: center;
  }
 
- .generals {
+ .programs {
  	display: flex;
  	justify-content: space-between;
  	text-align: center;
+ 	padding: 0 0 50px;
  }
 
  .landing-page {
@@ -66,30 +80,28 @@
  	padding: 40px 0 80px;
  }
 
- /* ====Contacts=== */
- .btn_2 {
+ .btn-black {
+ 	display: inline-block;
  	background: black;
  	color: #fff;
- 	width: 180px;
- 	padding: 12px 30px;
+ 	width: 20%;
+ 	padding: 12px;
  	text-align: center;
  	text-decoration: none;
- 	border-radius: 17px;
+ 	border-radius: 20px;
+ 	margin: 20px 0 0;
  }
 
- .btn2 {
- 	padding: 30px 0;
- }
-
- .icon-social {
+ .social_icons {
  	display: flex;
  	justify-content: center;
  }
 
- .icon-social img {
- 	margin: 20px;
+ .social_icons img {
+ 	margin: 45px;
  }
 
+ /* ====Footer=== */
  .social-text {
  	text-align: center;
  }
