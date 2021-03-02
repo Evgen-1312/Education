@@ -3,10 +3,12 @@
  	color: #000;
  	margin: 0;
  	padding: 0;
+	 background: white;
  }
 
  * {
  	box-sizing: border-box;
+	 /* border: 1px dotted red; */
  }
 
  a,
@@ -16,7 +18,7 @@
  }
 
  .wrapper {
- 	width: 945px;
+ 	width: 948px;
  	margin: 0 auto;
  }
 
@@ -24,7 +26,7 @@
  	display: flex;
  	justify-content: space-between;
  	padding: 33px 0;
- 	border-bottom: 1px solid black;
+ 	border-bottom: 2px solid #B0B0B0;
  }
 
  nav a {
