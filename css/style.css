@@ -17,7 +17,7 @@
 
  /* =Header= */
  .wrapper {
- 	width: 948px;
+ 	width: 946px;
  	margin: 0 auto;
  }
 
@@ -126,13 +126,16 @@
 
 
  /* ====Footer_P=== */
+
  footer {
- 	color: white;
- 	background: #1240CD;
+ 	background: blue;
  }
 
  .social-text {
  	text-align: center;
+ 	color: white;
+ 	width: 946px;
+ 	margin: 0 auto;
  }
 
  /* ====Footer_P(end)=== */
