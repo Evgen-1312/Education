@@ -126,6 +126,11 @@
 
 
  /* ====Footer_P=== */
+ footer {
+ 	color: white;
+ 	background: #1240CD;
+ }
+
  .social-text {
  	text-align: center;
  }
