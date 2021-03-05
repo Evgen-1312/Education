@@ -6,6 +6,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Education-1</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/normalize.css" rel="stylesheet">
 </head>
@@ -20,67 +22,60 @@
 			<a href="#">Contacts</a>
 		</nav>
 	</header>
-
-	<section>
+	<section class="info">
 		<div class="wrapper">
 			<div class="info-name">
-				<h1>Denis<br /> Novik</h1>
-				<p>Ux | ui designer<br /> 24 years old, minsk</p>
+				<h1>Denis<br>Novik</h1>
+				<p>Ux | ui designer<br>24 years old, minsk</p>
 				<div class="lang-switcher">
-					<a href="#" class="lang-switcher__item">ru </a>
-					<a href="#" class="lang-switcher__item">eng</a>
+					<a href="#" class="lang-switcher__item1">ru</a>
+					<span>|</span>
+					<a href="#" class="lang-switcher__item2">eng</a>
 				</div>
 			</div>
 			<img src="images/beard.png" alt="beard" class="picture" />
 		</div>
 	</section>
-
-	<section class="bg-gray">
-		<div class="wrapper about">
+	<section class="bg-gray1">
+		<div class="wrapper">
 			<div class="subtitle">
 				<h2>About me</h2>
-				<p class="text">Hi, I'm Denis – UX/UI designer from Minsk. <br />I'm interested in design and everything
-					connected with it. </p>
-				<p class="text">I'm studying at courses "Web and mobile design<br /> interfaces" in IT-Academy.</p>
-				<p class="text">Ready to implement excellent projects<br /> with wonderful people.</p>
+				<p class="texts">Hi, I'm Denis – UX/UI designer from Minsk.<br>I'm interested in design and everything
+					connected with it.</p>
+				<p class="texts">I'm studying at courses "Web and mobile design<br>interfaces" in IT-Academy.</p>
+				<p class="texts">Ready to implement excellent projects<br>with wonderful people.</p>
 			</div>
 		</div>
 	</section>
-
-	<section>
+	<section class="skills">
 		<div class="wrapper">
-			<div class="subtitle">
+			<div class="subtitle skills__subtitle">
 				<h2>Skills</h2>
-				<p>I work in such programs as</p>
+				<p class="subtitle__skills__description">I work in such programs as</p>
 			</div>
 			<div class="programs">
-				<div class="program-icon">
-					<img src="images/photoshop.png" alt="photoshop" />
-					<p>Adobe<br /> Photoshop</p>
-					<img src="images/group1.png" alt="groups" />
+				<div class="program-icon__photoshop">
+					<p class="program-icon_text">Adobe<br>Photoshop</p>
+					<div class="icon-star"></div>
 				</div>
-				<div class="program-icon">
-					<img src="images/Illustrator.png" alt="Illustrator" />
-					<p>Adobe<br /> Illustrator</p>
-					<img src="images/group2.png" alt="groups" />
+				<div class="program-icon__illustrator">
+					<p class="program-icon_text">Adobe<br>Illustrator</p>
+					<div class="icon-star_illustrator"></div>
 				</div>
-				<div class="program-icon">
-					<img src="images/effects.png" alt="effects" />
-					<p>Adobe<br /> After Effects</p>
-					<img src="images/group1.png" alt="groups" />
+				<div class="program-icon__effects">
+					<p class="program-icon_text">Adobe<br>After Effects</p>
+					<div class="icon-star"></div>
 				</div>
-				<div class="program-icon">
-					<img src="images/figma.png" alt="figma" />
-					<p>Figma<br />Figma</p>
-					<img src="images/group1.png" alt="groups" />
+				<div class="program-icon__figma">
+					<p class="program-icon_text_figma">Figma</p>
+					<div class="icon-star"></div>
 				</div>
 			</div>
 		</div>
 	</section>
-
-	<section class="bg-gray">
+	<section class="bg-gray2">
 		<div class="wrapper">
-			<div class="subtitle">
+			<div class="subtitle bg-gray2-subtitle">
 				<h2>Portfolio</h2>
 			</div>
 			<div class="landing-page">
@@ -93,12 +88,11 @@
 			</div>
 		</div>
 	</section>
-
-	<section>
+	<footer class="footer">
 		<div class="wrapper">
 			<div class="subtitle">
 				<h2>Contacts </h2>
-				<p>Want to know more or just chat? <br> You are welcome! </p>
+				<p>Want to know more or just chat?<br>You are welcome!</p>
 				<a href="#" class="btn-black" alt="">Send message</a>
 			</div>
 			<div class="social_icons">
@@ -107,11 +101,8 @@
 				<img src="images/behance.png" alt="" />
 				<img src="images/dribble.png" alt="" />
 			</div>
+			<p class="social-text">Like me on <br>LinkedIn, Instagram, Behance, Dribble</p>
 		</div>
-	</section>
-
-	<footer>
-		<p class="social-text">Like me on <br />LinkedIn, Instagram, Behance, Dribble </p>
 	</footer>
 </body>
 
